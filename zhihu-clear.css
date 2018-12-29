@@ -1,0 +1,426 @@
+/** General **/
+
+/* tags */
+
+body {
+    color: #34495e;
+    line-height: 2;
+    font-size: 14px;
+    font-family: Monaco, Menlo, Microsoft Yahei;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h1 {
+    color: #34495e;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ztext blockquote {
+    color: #666;
+    font-size: smaller;
+    font-family: Helvetica, Monaco, Menlo, Microsoft Yahei;
+}
+
+a {
+    color: #ac3e40;
+}
+
+/* a:hover {
+text-decoration: underline;
+border-bottom: 0 !important;
+} */
+
+/* Tag */
+
+.Tag {
+    color: #ac3e40;
+}
+
+/* Button */
+
+.Button {
+    color: #34495e;
+}
+
+.Button--link {
+    color: #ac3e40;
+}
+
+/* 填充型的按钮 */
+
+.Button--primary.Button--blue,
+.Button--primary.Button--blue:disabled {
+    background: #34495e;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+}
+
+/* Input */
+
+textarea.Input {
+    color: #34495e;
+}
+
+input.Input {
+    color: #34495e;
+}
+
+/** Main page **/
+
+/* AppHeader */
+
+.AppHeader {
+    background-color: #34495e;
+    padding: 0;
+    box-shadow: 0 2px 5px -1px #000;
+}
+
+.AppHeader-navItem,
+.AppHeader-navItem:visited,
+.AppHeader-navItem:active {
+    color: #fff;
+    opacity: .9;
+    -ms-filter: "alpha(Opacity=90)";
+}
+
+.AppHeader-navItem:hover {
+    color: #fff;
+    opacity: .9;
+    text-decoration: underline;
+    -ms-filter: "alpha(Opacity=90)";
+    border-bottom: 0;
+}
+
+.AppHeader-navItem.is-active {
+    color: #fff;
+    opacity: .9;
+    -ms-filter: "alpha(Opacity=90)";
+}
+
+.AppHeader-profile .Button--blue {
+    color: #fff;
+    opacity: .9;
+}
+
+/* Logo */
+
+.ZhihuLogo {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
+/* PageHeader */
+
+.PageHeader .Tabs-link {
+    color: #fff;
+    opacity: .9;
+}
+
+.TopstoryPageHeader-tabs .Tabs-item a {
+    color: #fff;
+    opacity: .9;
+}
+
+.PageHeader .Button--grey {
+    color: #fff;
+    opacity: .9;
+}
+
+/* SearchBar */
+
+.SearchBar-input.Input-wrapper.Input-wrapper--grey {
+    background: #293a4a;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+}
+
+.SearchBar-input input.Input {
+    color: #fff;
+    opacity: .9;
+}
+
+.SimpleSearchBar-input {
+    background: #293a4a;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+}
+
+.SimpleSearchBar-input.Input-wrapper.is-focus {
+    background: #293a4a;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+}
+
+.SimpleSearchBar-input input.Input {
+    color: #fff;
+    opacity: .9;
+}
+
+/* PushNotification */
+
+.AppHeader .Zi {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
+.PushNotifications-count {
+    background: #bf1031;
+    border: 1px solid #b11331;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1), inset 0 1px 0 rgba(255, 255, 255, .15);
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 0 5px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 16px;
+    text-indent: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.PushNotifications-selectedTabIcon {
+    fill: #34495e;
+}
+
+.PushNotifications-tab.Button--plain:hover {
+    color: #0084FF;
+}
+
+.PushNotifications-item a:hover {
+    text-decoration: underline;
+}
+
+.PushNotifications-newItem {
+    background: #ddd;
+}
+
+.PushNotifications-followItem:hover {
+    background-color: #a1c3dd;
+}
+
+.PushNotifications-redbot {
+    width: 6px;
+    height: 6px;
+}
+
+.PushNotifications-item .UserLink {
+    color: #3e7ac2;
+}
+
+/* Message */
+
+.Messages-itemContent {
+    color: #34495e;
+}
+
+.Messages-item:hover {
+    background-color: #a1c3dd;
+}
+
+/* Tabs-link */
+
+.Tabs-link {
+    color: #34495e;
+}
+
+/* ContentItem */
+
+.ContentItem-actions .Button--blue {
+    color: #34495e;
+    opacity: .9;
+    border-color: #0084FF;
+}
+
+.ContentItem-actions .Button--blue:hover:not(:disabled) {
+    background-color: #0084ff;
+    background-color: rgba(0, 132, 255, 0.06);
+}
+
+.ContentItem-more.Button--plain {
+    color: #ac3e40;
+}
+
+/* Card */
+
+.Question-mainColumn .Card {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.Topstory-content .Card {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.TopstoryItem--advertCard {
+    display: none;
+}
+
+/* Favlists */
+
+.Favlists-updateButton.Button--blue {
+    color: #34495e;
+    opacity: .9;
+    border-color: #34495e;
+}
+
+/* Uninterest */
+
+.Button.TopstoryItem-uninterestTag:hover:not(:disabled) {
+    background-color: #0084ff;
+    background-color: rgba(0, 132, 255, 0.06);
+}
+
+/* Comment */
+
+.CommentTopbar-title {
+    color: #34495e;
+}
+
+.BounceLoading .BounceLoading-child {
+    background-color: #34495e;
+}
+
+.Comments-container {
+    line-height: 1;
+}
+
+/* .NestComment .NestComment--child:after{
+border-bottom: 0.5px solid #F6F6F6;
+}
+
+.NestComment:not(:last-child):after {
+border-bottom: 0.5px solid #F6F6F6;
+} */
+
+/* Sticky (right column) */
+
+.Question-sideColumn .Sticky .Card:not([data-za-detail-view-path-module]) {
+    display: none;
+}
+
+.FeedSource-firstline a {
+    color: #ac3e40;
+}
+
+.GlobalSideBar-navLink .Zi {
+    color: #8590A6;
+}
+
+.GlobalSideBar-navText {
+    color: #8590A6;
+}
+
+.Footer a {
+    color: #8590A6;
+}
+
+.Footer .Button {
+    color: #8590A6;
+}
+
+.Footer .Button:hover {
+    color: #175199;
+    cursor: pointer;
+}
+
+/** Question **/
+
+/* QuestionHeader */
+
+.PageHeader .QuestionHeader-title {
+    color: #fff;
+    opacity: .9;
+}
+
+.PageHeader .QuestionButtonGroup .Button--blue {
+    color: #fff;
+    opacity: .9;
+}
+
+.QuestionHeader .QuestionHeader-title {
+    color: #34495e;
+}
+
+.QuestionRichText-more.Button--plain {
+    color: #ac3e40;
+}
+
+/* List item */
+
+.List-item+.List-item::after {
+    border-bottom: 1px solid #F0F2F7;
+    border-top: 2px solid #eee;
+}
+
+/** People **/
+
+.Profile-sideColumnItemLink {
+    color: #8590A6;
+}
+
+.Profile-lightItemName {
+    color: #8590A6;
+}
+
+.Profile-lightItemName:hover {
+    color: #175199;
+    cursor: pointer;
+}
+
+.PageHeader .ProfileButtonGroup .Button--blue {
+    color: #fff;
+    opacity: .9;
+}
+
+.PageHeader .ProfileButtonGroup .Button--blue:hover:not(:disabled) {
+    border-color: hsl(208.94117647058823, 100%, 45%);
+    background-color: hsl(208.94117647058823, 100%, 45%);
+}
+
+.PageHeader .ProfileMain-menuToggler.Button--plain {
+    color: #fff;
+    opacity: .9;
+}
+
+/** Topic **/
+
+.Topic-bar {
+    background: #34495e;
+}
+
+.Topic-bar--borderBottom {
+    background: #fff;
+}
+
+.Topic-bar--borderTop {
+    background: #fff;
+}
+
+.PageHeader .Topic-bar .Topic-headerLink {
+    color: #fff;
+    opacity: .9;
+}
+
+.NumberBoard-item:hover .NumberBoard-itemName,
+.NumberBoard-item:hover .NumberBoard-itemValue {
+    color: #175199;
+}
+
+/** Login **/
+
+.SignFlowHeader-slogen {
+    color: #34495e;
+}
