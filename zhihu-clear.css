@@ -36,10 +36,6 @@ text-decoration: underline;
 border-bottom: 0 !important;
 } */
 
-div:empty {
-    display: none;
-}
-
 /* Tag */
 
 .Tag {
@@ -256,7 +252,7 @@ input.Input {
     color: #ac3e40;
 }
 
-/* Card */
+/* Topstory & Card */
 
 .Question-mainColumn .Card {
     border-top: 2px solid #eee;
@@ -269,6 +265,10 @@ input.Input {
 }
 
 .TopstoryItem--advertCard {
+    display: none;
+}
+
+.TopstoryContent div:empty {
     display: none;
 }
 
