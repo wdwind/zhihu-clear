@@ -311,6 +311,10 @@ border-bottom: 0.5px solid #F6F6F6;
 
 /* Sticky (right column) */
 
+.Pc-card {
+    display: none;
+}
+
 .Question-sideColumn .Sticky .Card:not([data-za-detail-view-path-module]) {
     display: none;
 }
