@@ -272,6 +272,16 @@ input.Input {
     display: none;
 }
 
+/* Feed */
+
+.RichText a.UserLink-link {
+	color: #ac3e40;
+}
+
+.RichText a.UserLink-link:hover {
+    border-bottom: 0;
+}
+
 /* Favlists */
 
 .Favlists-updateButton.Button--blue {
