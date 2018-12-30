@@ -413,6 +413,15 @@ border-bottom: 0.5px solid #F6F6F6;
     opacity: .9;
 }
 
+.Profile-sideColumn .Button--plain {
+    color: #8590A6;
+}
+
+.Profile-sideColumn .Button--plain:hover {
+    color: #175199;
+    cursor: pointer;
+}
+
 /** Topic **/
 
 .Topic-bar {
@@ -435,6 +444,43 @@ border-bottom: 0.5px solid #F6F6F6;
 .NumberBoard-item:hover .NumberBoard-itemName,
 .NumberBoard-item:hover .NumberBoard-itemValue {
     color: #175199;
+}
+
+/** Search **/
+
+.SearchTabs {
+    background-color: #34495e;
+}
+
+.SearchTabs .Button {
+    color: #fff;
+    opacity: .9;
+}
+
+.SearchTabs .Tabs-link {
+    color: #fff;
+    opacity: .9;
+}
+
+.SearchTabs-selectList .Select-option {
+    color: #34495e;
+}
+
+.Select-option:focus {
+    background-color: #a1c3dd;
+}
+
+.TopSearch--new .Card-headerText {
+    color: #34495e;
+}
+
+.TopSearch--new .TopSearch-itemLink {
+    color: #8590A6;
+}
+
+.TopSearch--new .TopSearch-itemLink:hover {
+    color: #175199;
+    cursor: pointer;
 }
 
 /** Login **/
