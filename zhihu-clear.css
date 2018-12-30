@@ -36,6 +36,10 @@ text-decoration: underline;
 border-bottom: 0 !important;
 } */
 
+div:empty {
+    display: none;
+}
+
 /* Tag */
 
 .Tag {
