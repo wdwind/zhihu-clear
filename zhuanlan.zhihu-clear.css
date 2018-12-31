@@ -1,0 +1,213 @@
+/** General **/
+
+/* tags */
+
+body {
+    color: #34495e;
+    font-size: 14px;
+    font-family: Monaco, Menlo, Microsoft Yahei;
+}
+
+h1 {
+    color: #34495e;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #34495e;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ztext blockquote {
+    color: #666;
+    font-size: smaller;
+    font-family: Helvetica, Monaco, Menlo, Microsoft Yahei;
+}
+
+a {
+    color: #ac3e40;
+}
+
+/* a:hover {
+text-decoration: underline;
+border-bottom: 0 !important;
+} */
+
+/* Tag */
+
+.Tag {
+    color: #ac3e40;
+}
+
+/* Button */
+
+.Button {
+    color: #34495e;
+}
+
+.Button--link {
+    color: #ac3e40;
+}
+
+/* 填充型的按钮 */
+
+.Button--primary.Button--blue,
+.Button--primary.Button--blue:disabled {
+    background: #34495e;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+}
+
+/* Input */
+
+textarea.Input {
+    color: #34495e;
+}
+
+input.Input {
+    color: #34495e;
+}
+
+/* App main */
+
+.App-main {
+    background-color: #f6f6f6;
+}
+
+/* Header */
+
+.Sticky.ColumnPageHeader {
+    background-color: #34495e;
+    padding: 0;
+    box-shadow: 0 2px 5px -1px #000;
+}
+
+/* Logo */
+
+.ZhihuLogo {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
+/* Title column */
+
+.ColumnPageHeader-TitleColumn {
+    color: #fff;
+    opacity: .9;
+}
+
+.ColumnPageHeader-Button .Button--blue {
+    background: #34495e;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+    color: #fff;
+    opacity: .9;
+}
+
+.ColumnPageHeader-Button .ColumnPageHeader-MenuToggler.Button--plain {
+    color: #fff;
+    opacity: .9;
+}
+
+.ColumnPageHeader-Button .ColumnPageHeader-MenuToggler.Button--plain:hover {
+    color: #fff;
+}
+
+/* Popover menu */
+
+.ColumnPageHeader-Menu .Menu-item {
+    color: #34495e;
+}
+
+.ColumnPageHeader-Menu .Menu-item.is-active {
+    background-color: #a1c3dd;
+    color: #175199;
+    cursor: pointer;
+}
+
+/* Post main */
+
+.Post-content {
+    background: #f6f6f6;
+}
+
+.Post-NormalMain .Post-Header {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+
+.Post-NormalMain>div {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+
+/* ActionMenu */
+
+.Post-SideActions button.like {
+    color: #34495e;
+}
+
+.Post-SideActions button.like .Post-SideActions-icon {
+    color: #34495e;
+}
+
+.Post-ActionMenu>.Menu-divider:empty {
+    display: none;
+}
+
+/* PostIndex-Contributes */
+
+.BlockTitle {
+    color: #34495e;
+}
+
+/* Recommendations */
+
+.Recommendations-Main {
+    background: #F6F6F6 !important;
+    margin-top: 0px !important;
+}
+
+.PagingButton svg {
+    fill: #8590A6;
+    ;
+}
+
+.PostItem-Title {
+    color: #34495e;
+}
+
+.PostItem-Summary {
+    color: #34495e;
+}
+
+/* Comment */
+
+.Post-NormalMain .Comments-container {
+    border-top: 32px solid transparent;
+    padding-left: 0;
+    padding-right: 0;
+    width: 690px;
+}
+
+.CommentTopbar-title {
+    color: #34495e;
+}
