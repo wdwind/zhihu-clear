@@ -211,3 +211,18 @@ input.Input {
 .CommentTopbar-title {
     color: #34495e;
 }
+
+.RichText a.UserLink-link {
+    color: #ac3e40;
+}
+
+.CommentRichText .Richtext-content_img-square--highShape {
+    width: max-content;
+}
+
+.CommentRichText .Richtext-content_img img {
+    position: relative;
+    left: 0;
+    -webkit-transform: none;
+    transform: none;
+}

@@ -330,6 +330,17 @@ border-bottom: 0.5px solid #F6F6F6;
 border-bottom: 0.5px solid #F6F6F6;
 } */
 
+.CommentRichText .Richtext-content_img-square--highShape {
+    width: max-content;
+}
+
+.CommentRichText .Richtext-content_img img {
+    position: relative;
+    left: 0;
+    -webkit-transform: none;
+    transform: none;
+}
+
 /* Sticky (right column) */
 
 .Pc-card {
