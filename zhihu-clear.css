@@ -279,7 +279,7 @@ input.Input {
     display: none;
 }
 
-.TopstoryContent div:empty {
+.Topstory-content div:empty {
     display: none;
 }
 
