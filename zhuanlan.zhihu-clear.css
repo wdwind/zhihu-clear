@@ -4,7 +4,6 @@
 
 body {
     color: #34495e;
-    font-size: 14px;
     font-family: Monaco, Menlo, Microsoft Yahei;
 }
 
@@ -30,6 +29,15 @@ h3 {
     color: #666;
     font-size: smaller;
     font-family: Helvetica, Monaco, Menlo, Microsoft Yahei;
+}
+
+.ztext pre code {
+    color: #666;
+    font-size: small;
+}
+
+.ztext figure figcaption {
+    font-size: small;
 }
 
 a {

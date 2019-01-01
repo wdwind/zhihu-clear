@@ -5,7 +5,6 @@
 body {
     color: #34495e;
     line-height: 2;
-    font-size: 14px;
     font-family: Monaco, Menlo, Microsoft Yahei;
 }
 
@@ -25,6 +24,15 @@ h1 {
     color: #666;
     font-size: smaller;
     font-family: Helvetica, Monaco, Menlo, Microsoft Yahei;
+}
+
+.ztext pre code {
+    color: #666;
+    font-size: small;
+}
+
+.ztext figure figcaption {
+    font-size: small;
 }
 
 a {
@@ -275,12 +283,32 @@ input.Input {
     border-bottom: 2px solid #eee;
 }
 
+/**
+ * Don't set display:none to the following cards.
+ * Because zhihu's js is detecting the existence of all cards, and if 
+ * some are none, it will call backend service to get the feeds data.
+ * As a result, if we set it as none, many useless service calls will
+ * be triggered. (This is a bit stupid...)
+ * 
+ * Instead, we can set width/height/... to 0 to simulate display: none.
+ */
+
 .TopstoryItem--advertCard {
-    display: none;
+    /* display: none; */
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0 !important;
 }
 
 .Topstory-content div:empty {
-    display: none;
+    /* display: none; */
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0 !important;
 }
 
 /* Feed */
@@ -344,12 +372,17 @@ border-bottom: 0.5px solid #F6F6F6;
 /* Sticky (right column) */
 
 .Pc-card {
-    display: none;
+    /* display: none; */
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-.Question-sideColumn .Sticky .Card:not([data-za-detail-view-path-module]) {
+/* .Question-sideColumn .Sticky .Card:not([data-za-detail-view-path-module]) {
     display: none;
-}
+} */
 
 .FeedSource-firstline a {
     color: #ac3e40;
