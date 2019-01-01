@@ -311,6 +311,16 @@ input.Input {
     border: 0 !important;
 }
 
+/* HotItem */
+
+.HotItem-title {
+    color: #34495e;
+}
+
+.HotItem-excerpt {
+    color: #34495e;
+}
+
 /* Feed */
 
 .RichText a.UserLink-link {
@@ -371,13 +381,12 @@ border-bottom: 0.5px solid #F6F6F6;
 
 /* Sticky (right column) */
 
+.Sticky .Card:empty {
+    display: none;
+}
+
 .Pc-card {
-    /* display: none; */
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    display: none;
 }
 
 /* .Question-sideColumn .Sticky .Card:not([data-za-detail-view-path-module]) {
