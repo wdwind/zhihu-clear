@@ -160,7 +160,7 @@ input.Input {
 
 .Post-NormalMain>div {
     margin: 0 auto;
-    overflow: hidden;
+    overflow: hidden !important;
     width: 650px;
     padding-left: 20px;
     padding-right: 20px;
