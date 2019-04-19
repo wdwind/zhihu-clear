@@ -136,6 +136,10 @@ input.Input {
     opacity: .9;
 }
 
+.TopstoryPageHeader .TopstoryPageHeader-tabs {
+    border-bottom: none;
+}
+
 .PageHeader .Button--grey {
     color: #fff;
     opacity: .9;
