@@ -131,6 +131,11 @@ input.Input {
     opacity: .9;
 }
 
+.TopstoryTabs-link.Tabs-link.is-active {
+    color: #fff;
+    opacity: .9;
+}
+
 .TopstoryPageHeader-tabs .Tabs-item a {
     color: #fff;
     opacity: .9;
