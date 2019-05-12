@@ -131,7 +131,7 @@ input.Input {
     opacity: .9;
 }
 
-.TopstoryTabs-link.Tabs-link.is-active {
+.TopstoryPageHeader .TopstoryTabs-link.Tabs-link.is-active {
     color: #fff;
     opacity: .9;
 }
