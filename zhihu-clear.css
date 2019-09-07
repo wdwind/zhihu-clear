@@ -39,6 +39,15 @@ a {
     color: #ac3e40;
 }
 
+footer a {
+    color: #8590A6;
+}
+
+footer a:hover {
+    color: #175199;
+    cursor: pointer;
+}
+
 /* a:hover {
 text-decoration: underline;
 border-bottom: 0 !important;
@@ -48,16 +57,22 @@ border-bottom: 0 !important;
 
 .Tag {
     color: #ac3e40;
+    border-radius: 4px;
 }
 
 /* Button */
 
 .Button {
     color: #34495e;
+    font-weight: normal;
 }
 
 .Button--link {
     color: #ac3e40;
+}
+
+.CornerButton {
+    padding-top: 7px;
 }
 
 /* 填充型的按钮 */
@@ -68,6 +83,7 @@ border-bottom: 0 !important;
     border-radius: 3px;
     border: 1px solid #4e6d8d;
     box-shadow: none;
+    font-weight: normal;
 }
 
 /* Input */
@@ -316,6 +332,10 @@ input.Input {
     border-bottom: 2px solid #eee;
 }
 
+.Topstory-mainColumn .Card:not(.Topstory-tabCard) {
+    border-bottom: 2px solid #eee;
+}
+
 /**
  * Don't set display:none to the following cards.
  * Because zhihu's js is detecting the existence of all cards, and if 
@@ -344,14 +364,8 @@ input.Input {
     border: 0 !important;
 }
 
-/* HotItem */
-
-.HotItem-title {
-    color: #34495e;
-}
-
-.HotItem-excerpt {
-    color: #34495e;
+.TopstoryItem-isFollow {
+    padding-top: 12px;
 }
 
 /* Feed */
@@ -428,6 +442,10 @@ border-bottom: 0.5px solid #F6F6F6;
 
 .FeedSource-firstline a {
     color: #ac3e40;
+}
+
+.FeedSource-byline {
+    margin-bottom: 6px;
 }
 
 .GlobalSideBar-navLink .Zi {
@@ -583,5 +601,250 @@ border-bottom: 0.5px solid #F6F6F6;
 /** Login **/
 
 .SignFlowHeader-slogen {
+    color: #34495e;
+}
+
+/** /explore **/
+
+.ExploreHeader-tab {
+    color: #fff;
+    opacity: .9;
+}
+
+.ExploreFollowButton {
+    color: #fff !important;
+    background: #34495e !important;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+}
+
+.ExploreFollowButton:hover {
+    border-color: #0077e6 !important;
+    background-color: #0077e6 !important;
+}
+
+.ExploreFollowButton {
+    font-weight: normal;
+}
+
+.ExploreFollowButton--isFollowing {
+    color: #fff !important;
+    background-color: #8590a6 !important;
+    border: 0;
+}
+
+.ExploreFollowButton--isFollowing:not(.ExploreFollowButton--colored) {
+    color: #fff !important;
+    background-color: #8590a6 !important;
+    border: 0;
+}
+
+.ExploreFollowButton--isFollowing:hover {
+    border-color: #76839b !important;
+    background-color: #76839b !important;
+}
+
+.ExploreColumnCard-entryButton {
+    color: #fff !important;
+    background: #34495e !important;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.ExploreColumnCard-entryButton:hover {
+    border-color: #0077e6 !important;
+    background-color: #0077e6 !important;
+}
+
+.ExploreSpecialCard-title:hover {
+    color: #175199;
+}
+
+.ExploreSpecialCard-contentTitle:hover {
+    color: #175199;
+}
+
+.ExploreRoundtableCard-questionTitle:hover {
+    color: #175199;
+}
+
+.ExploreCollectionCard-title:hover {
+    color: #175199;
+}
+
+.ExploreCollectionCard-contentTitle:hover {
+    color: #175199;
+}
+
+/** /question/waiting **/
+
+.ListQuestionItem-title {
+    color: #ac3e40;
+}
+
+.QuestionType--active {
+    color: #ac3e40;
+}
+
+.QuestionWaiting-questionItem {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.QuestionWaiting-questions {
+    padding: 0;
+}
+
+.ListQuestionItem {
+    padding: 17px 20px 22px;
+}
+
+.QuestionWaiting-ignoreButton {
+    right: 26px;
+    top: 18px;
+}
+
+.QuestionLabel--hot {
+    color: #34495e;
+}
+
+.QuestionLabel--special {
+    color: #34495e;
+}
+
+/** /special/all **/
+
+.SpecialListCard-title:hover {
+    color: #175199;
+}
+
+.SpecialListCard-followButton {
+    color: #fff !important;
+    background: #34495e !important;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.SpecialListCard-followButton:hover {
+    border-color: #0077e6 !important;
+    background-color: #0077e6 !important;
+}
+
+.SpecialListCard-followButton--isFollowing {
+    color: #fff !important;
+    background-color: #8590a6 !important;
+    border: 0;
+}
+
+.SpecialListCard-followButton--isFollowing:hover {
+    border-color: #76839b !important;
+    background-color: #76839b !important;
+}
+
+/* /special/[\d]+ */
+
+.NewsSpecial .Header-title, .NewsSpecial .Section-title {
+    color: #34495e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.NewsSpecial-Section nav a {
+    color: #ac3e40;
+    font-weight: normal;
+    padding: 0 12px;
+    background: rgba(0,132,255,.1);
+}
+
+.NewsSpecial-SubModule h3 {
+    color: #34495e;
+}
+
+.NewsSpecial-ContentItem a h4 {
+    color: #ac3e40;
+}
+
+.NewsSpecial-ContentItem a h4:hover {
+    color: #175199;
+}
+
+.NewsSpecial-ContentItem .NewsSpecial-ContentItem-image, .NewsSpecial-ContentItem .NewsSpecial-ContentItem-imageGroup>img {
+    margin-top: -50px;
+    max-width: 160px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+}
+
+.Sticky.MobileAppHeader {
+    background-color: #34495e;
+    padding: 0;
+    -webkit-box-shadow: 0 2px 5px -1px #000;
+    -moz-box-shadow: 0 2px 5px -1px #000;
+    box-shadow: 0 2px 5px -1px #000;
+    border-bottom: 0;
+}
+
+.MobileAppHeader-logo svg {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
+.MobileAppHeader-downloadLink {
+    color: #fff;
+    opacity: 0.9;
+}
+
+/** /collection/hot **/
+
+.CollectionListCard-title:hover {
+    color: #175199;
+}
+
+.CollectionListCard-contentTitle:hover {
+    color: #175199;
+}
+
+.CollectionListCard-followButton {
+    color: #fff !important;
+    background: #34495e !important;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.CollectionListCard-followButton:hover {
+    border-color: #0077e6 !important;
+    background-color: #0077e6 !important;
+}
+
+.CollectionListCard-followButton--isFollowing {
+    color: #fff !important;
+    background-color: #8590a6 !important;
+    border: 0;
+}
+
+.CollectionListCard-followButton--isFollowing:hover {
+    border-color: #76839b !important;
+    background-color: #76839b !important;
+}
+
+/** /hot **/
+
+.HotItem-title {
+    color: #ac3e40;
+}
+
+.HotItem-title:hover {
+    color: #175199;
+}
+
+.HotItem-excerpt {
     color: #34495e;
 }
