@@ -56,7 +56,7 @@ border-bottom: 0 !important;
 /* Tag */
 
 .Tag {
-    color: #ac3e40;
+    color: #175199;
     border-radius: 4px;
 }
 
@@ -561,6 +561,10 @@ border-bottom: 0.5px solid #F6F6F6;
     color: #175199;
 }
 
+a.TopicLink {
+    color: #175199;
+}
+
 /** Search **/
 
 .SearchTabs {
@@ -847,4 +851,10 @@ border-bottom: 0.5px solid #F6F6F6;
 
 .HotItem-excerpt {
     color: #34495e;
+}
+
+/** /topic/[\d]+ **/
+
+.TopicTagsContainer .TopicTag {
+    margin: 0 8px 0 0;
 }
