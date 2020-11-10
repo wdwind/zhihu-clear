@@ -52,7 +52,12 @@ border-bottom: 0 !important;
 /* Tag */
 
 .Tag {
-    color: #ac3e40;
+    color: #175199;
+    border-radius: 4px;
+}
+
+a.TopicLink {
+    color: #175199;
 }
 
 /* Button */
@@ -208,6 +213,10 @@ input.Input {
 }
 
 /* Comment */
+
+.CommentsV2 {
+    padding-bottom: 12px;
+}
 
 .Post-NormalMain .Comments-container {
     border-top: 32px solid transparent;

@@ -145,6 +145,11 @@ input.Input {
     fill-opacity: .9;
 }
 
+.ZhihuLogoLink svg {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
 /* PageHeader */
 
 .PageHeader .Tabs-link {
@@ -258,9 +263,9 @@ input.Input {
     text-decoration: none;
 }
 
-.PushNotifications-selectedTabIcon {
+/* .PushNotifications-selectedTabIcon {
     fill: #34495e;
-}
+} */
 
 .PushNotifications-tab.Button--plain:hover {
     color: #0084FF;
@@ -320,6 +325,12 @@ input.Input {
     color: #ac3e40;
 }
 
+/* Answer */
+
+.AnswerItem-selfMenuItem {
+    color: #34495e;
+}
+
 /* Topstory & Card */
 
 .Question-mainColumn .Card {
@@ -366,6 +377,10 @@ input.Input {
 
 .TopstoryItem-isFollow {
     padding-top: 12px;
+}
+
+.TopstoryItem-feedList {
+    padding: 0 !important;
 }
 
 /* Feed */
@@ -424,6 +439,14 @@ border-bottom: 0.5px solid #F6F6F6;
     left: 0;
     -webkit-transform: none;
     transform: none;
+}
+
+.CommentEditorV2-inputWrap {
+    border: 1.5px solid #ebebeb;
+}
+
+.CommentEditorV2-inputWrap--active {
+    border: 1.5px solid #8590a6;
 }
 
 /* Sticky (right column) */
@@ -579,6 +602,10 @@ a.TopicLink {
 .SearchTabs .Tabs-link {
     color: #fff;
     opacity: .9;
+}
+
+.SearchTabs .InputLike {
+    background: #34495e;
 }
 
 .SearchTabs-selectList .Select-option {
