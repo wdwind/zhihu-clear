@@ -111,6 +111,11 @@ input.Input {
     fill-opacity: .9;
 }
 
+.ZhihuLogoLink svg {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
 /* Title column */
 
 .ColumnPageHeader-TitleColumn {
