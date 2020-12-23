@@ -292,6 +292,20 @@ input.Input {
     color: #3e7ac2;
 }
 
+.css-ybodb {
+    border: none;
+}
+
+.AppHeader-profileAvatarRedDot {
+    border-radius: 20px;
+    height: 10px;
+    right: -4px;
+    top: -4px;
+    width: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
 /* Message */
 
 .Messages-itemContent {
@@ -457,6 +471,18 @@ border-bottom: 0.5px solid #F6F6F6;
 
 .Pc-card {
     display: none;
+}
+
+.GlobalWrite-navNumber, html[data-theme=dark] .GlobalWrite-navNumber {
+    color: inherit;
+}
+
+.css-605fnf {
+    color: inherit;
+}
+
+.ProfileSideCreator-readCountNumber {
+    color: #34495e;
 }
 
 /* .Question-sideColumn .Sticky .Card:not([data-za-detail-view-path-module]) {
@@ -884,4 +910,11 @@ a.TopicLink {
 
 .TopicTagsContainer .TopicTag {
     margin: 0 8px 0 0;
+}
+
+/** /creator **/
+
+.css-1kn1p8z {
+    color: #fff;
+    opacity: 0.9;
 }
