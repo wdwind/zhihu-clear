@@ -86,6 +86,23 @@ border-bottom: 0 !important;
     font-weight: normal;
 }
 
+.VerificationDialogModal-button:disabled {
+    background: #34495e;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none;
+    font-weight: normal;
+    color: #fff;
+}
+
+.VerificationDialogModal-button {
+    background: #34495e;
+    border-radius: 3px;
+    box-shadow: none;
+    font-weight: normal;
+    color: #fff !important;
+}
+
 /* Input */
 
 textarea.Input {
