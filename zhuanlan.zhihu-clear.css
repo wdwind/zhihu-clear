@@ -123,6 +123,11 @@ input.Input {
     opacity: .9;
 }
 
+.ColumnPageHeader svg {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
 .ColumnPageHeader-Button .Button--blue {
     background: #34495e;
     border-radius: 3px;
@@ -206,7 +211,6 @@ input.Input {
 
 .PagingButton svg {
     fill: #8590A6;
-    ;
 }
 
 .PostItem-Title {

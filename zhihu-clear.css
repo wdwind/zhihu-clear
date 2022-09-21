@@ -79,11 +79,17 @@ border-bottom: 0 !important;
 
 .Button--primary.Button--blue,
 .Button--primary.Button--blue:disabled {
-    background: #34495e;
+    background: #34495e !important;
     border-radius: 3px;
-    border: 1px solid #4e6d8d;
+    border: 1px solid #4e6d8d !important;
     box-shadow: none;
     font-weight: normal;
+    color: #fff !important;
+}
+
+.Button--primary.Button--blue:hover {
+    border-color: #005ce6 !important;
+    background-color: #005ce6 !important;
 }
 
 .VerificationDialogModal-button:disabled {
@@ -155,6 +161,17 @@ input.Input {
     opacity: .9;
 }
 
+.AppHeader .Zi {
+    fill: #fff;
+    fill-opacity: .9;
+}
+
+.AppHeader-notifications div {
+    border: none !important;
+    color: #fff;
+    opacity: .9;
+}
+
 /* Logo */
 
 .ZhihuLogo {
@@ -163,8 +180,13 @@ input.Input {
 }
 
 .ZhihuLogoLink svg {
-    fill: #fff;
-    fill-opacity: .9;
+    fill: #fff !important;
+    fill-opacity: .9 !important;
+}
+
+.AppHeader-inner svg {
+    fill: #fff !important;
+    fill-opacity: .9 !important;
 }
 
 /* PageHeader */
@@ -172,6 +194,11 @@ input.Input {
 .PageHeader .Tabs-link {
     color: #fff;
     opacity: .9;
+}
+
+.PageHeader svg {
+    fill: #fff !important;
+    fill-opacity: .9 !important;
 }
 
 .TopstoryTabs-link {
@@ -215,7 +242,7 @@ input.Input {
 /* SearchBar */
 
 .SearchBar-input.Input-wrapper.Input-wrapper--grey {
-    background: #293a4a;
+    background: #293a4a !important;
     border-radius: 3px;
     border: none;
     box-shadow: none;
@@ -257,11 +284,6 @@ input.Input {
 }
 
 /* PushNotification */
-
-.AppHeader .Zi {
-    fill: #fff;
-    fill-opacity: .9;
-}
 
 .PushNotifications-count {
     background: #bf1031;
@@ -360,6 +382,11 @@ input.Input {
 
 .AnswerItem-selfMenuItem {
     color: #34495e;
+}
+
+.Reward-rewardBtn {
+    background: #34495e;
+    opacity: 0.9;
 }
 
 /* Topstory & Card */
@@ -478,6 +505,26 @@ border-bottom: 0.5px solid #F6F6F6;
 
 .CommentEditorV2-inputWrap--active {
     border: 1.5px solid #8590a6;
+}
+
+/* send comment */
+.Button.css-1maszcz {
+    background: #34495e !important;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d !important;
+    box-shadow: none;
+    font-weight: normal;
+    color: #fff !important;
+}
+
+.Button.css-1maszcz:hover {
+    border-color: #005ce6 !important;
+    background-color: #005ce6 !important;
+}
+
+/* like comment */
+.Button.css-1h9r04p {
+    color: rgb(5, 109, 232);
 }
 
 /* Sticky (right column) */
