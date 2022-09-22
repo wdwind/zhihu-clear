@@ -172,6 +172,18 @@ input.Input {
     opacity: .9;
 }
 
+.AppHeader-messages div {
+    border: none !important;
+    color: #fff;
+    opacity: .9;
+}
+
+.css-1n5shmo {
+    border: none !important;
+    color: #fff;
+    opacity: .9;
+}
+
 /* Logo */
 
 .ZhihuLogo {
