@@ -90,12 +90,6 @@ input.Input {
     color: #34495e;
 }
 
-/* App main */
-
-.App-main {
-    background-color: #f6f6f6;
-}
-
 /* Header */
 
 .Sticky.ColumnPageHeader {
@@ -160,9 +154,9 @@ input.Input {
 
 /* Post main */
 
-.Post-content {
+/* .Post-content {
     background: #f6f6f6;
-}
+} */
 
 .Post-NormalMain .Post-Header {
     margin: 0 auto;
@@ -170,7 +164,6 @@ input.Input {
     width: 650px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #fff;
 }
 
 .Post-NormalMain>div {
@@ -179,8 +172,11 @@ input.Input {
     width: 650px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #fff;
 }
+
+/* .ContentItem-actions {
+    background: #f6f6f6 !important;
+} */
 
 /* ActionMenu */
 
@@ -251,4 +247,17 @@ input.Input {
     left: 0;
     -webkit-transform: none;
     transform: none;
+}
+
+.Button.css-5ef48z {
+    color: #fff !important;
+}
+
+.Button.css-1maszcz {
+    background: #34495e !important;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d !important;
+    box-shadow: none;
+    font-weight: normal;
+    color: #fff !important;
 }

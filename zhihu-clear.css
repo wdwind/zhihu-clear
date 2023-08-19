@@ -4,7 +4,6 @@
 
 body {
     color: #34495e;
-    line-height: 2;
     font-family: Monaco, Menlo, Microsoft Yahei;
 }
 
@@ -184,6 +183,12 @@ input.Input {
     opacity: .9;
 }
 
+.css-1m60na {
+    border: none !important;
+    color: #fff;
+    opacity: .9;
+}
+
 /* Logo */
 
 .ZhihuLogo {
@@ -216,24 +221,28 @@ input.Input {
 .TopstoryTabs-link {
     color: #000;
     opacity: .9;
+    border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 }
 
 .TopstoryTabs-link.is-active {
     color: #000;
     font-weight: 600;
+    border-top: 3px solid transparent;
     border-bottom: 3px solid #0084ff;
 }
 
 .TopstoryPageHeader .TopstoryTabs-link {
     color: #fff;
     opacity: .9;
+    border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 }
 
 .TopstoryPageHeader .TopstoryTabs-link.is-active {
     color: #fff;
     font-weight: 600;
+    border-top: 3px solid transparent;
     border-bottom: 3px solid #0084ff;
 }
 
@@ -520,6 +529,11 @@ border-bottom: 0.5px solid #F6F6F6;
 }
 
 /* send comment */
+
+.Button.css-5ef48z {
+    color: #fff !important;
+}
+
 .Button.css-1maszcz {
     background: #34495e !important;
     border-radius: 3px;
@@ -537,6 +551,10 @@ border-bottom: 0.5px solid #F6F6F6;
 /* like comment */
 .Button.css-1h9r04p {
     color: rgb(5, 109, 232);
+}
+
+.Button.css-1qb7rqj {
+    color: rgb(5, 109, 232) !important;
 }
 
 /* Sticky (right column) */
